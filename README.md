@@ -1,4 +1,6 @@
 
+# instalações feitas em aula
+
 npm install -g yarn
 
 npm install -g @vue/cli
