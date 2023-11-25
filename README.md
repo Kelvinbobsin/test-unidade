@@ -1,24 +1,10 @@
-# component-teste-app
 
-## Project setup
-```
-yarn install
-```
+npm install -g yarn
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+npm install -g @vue/cli
 
-### Compiles and minifies for production
-```
-yarn build
-```
+vue create component-teste-app
 
-### Lints and fixes files
-```
-yarn lint
-```
+yarn add cypress @cypress/vue @cypress/webpack-dev-server
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npx cypress open --component
